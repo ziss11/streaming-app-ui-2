@@ -3,7 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:streaming_app_2/utilities/colors.dart';
 import 'package:streaming_app_2/utilities/constants.dart';
 
-final kHeading6 = GoogleFonts.poppins(
+final kHeading5 = GoogleFonts.poppins(
   color: whiteColor,
   fontWeight: medium,
   fontSize: 20,
@@ -34,9 +34,9 @@ final kBody2 = GoogleFonts.poppins(
 );
 
 final kTextTheme = TextTheme(
-  headline6: kHeading6,
-  titleSmall: kTitle,
+  headline5: kHeading5,
+  headline6: kTitle,
   subtitle1: kSubtitle,
-  bodyMedium: kBody1,
-  bodySmall: kBody2,
+  bodyText1: kBody1,
+  bodyText2: kBody2,
 );
