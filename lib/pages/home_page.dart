@@ -6,6 +6,7 @@ import 'package:streaming_app_2/widgets/tv_tile.dart';
 import '../widgets/movie_card.dart';
 
 class HomePage extends StatefulWidget {
+  static const routeName = '/';
   const HomePage({Key? key}) : super(key: key);
 
   @override
@@ -28,14 +29,14 @@ class _HomePageState extends State<HomePage> {
               margin: EdgeInsets.only(
                 left: defaultMargin,
                 right: defaultMargin,
-                top: 10,
+                top: 20,
               ),
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   ClipRRect(
                     borderRadius: BorderRadius.circular(
-                      defaultRadius,
+                      50,
                     ),
                     child: Image.asset(
                       'images/profile_image.png',
