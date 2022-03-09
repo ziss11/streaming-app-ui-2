@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
       return PreferredSize(
         child: SafeArea(
           child: AppBar(
-            elevation: 0,
+            elevation: 1,
             automaticallyImplyLeading: false,
             backgroundColor: backgroundColor,
             flexibleSpace: Container(
